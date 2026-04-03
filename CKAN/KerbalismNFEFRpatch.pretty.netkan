@@ -1,0 +1,24 @@
+identifier: KerbalismNFEFRpatch
+name: Kerbalism NFE Nuclear Patch
+author: bimo1d
+abstract: Background reactor bridge between Kerbalism and Near Future Electrical.
+$kref: '#/ckan/github/bimo1d/Kerbalism-NFENuclearPatch/asset_match/^KerbalismNFEFRpatch.*\.zip$'
+x_netkan_version_edit: '^[vV]?(?<version>.+)$'
+license: Unlicense
+ksp_version_min: 1.12.5
+ksp_version_max: 1.12.99
+tags:
+  - plugin
+  - config
+  - resources
+depends:
+  - name: ModuleManager
+  - name: Kerbalism
+  - name: NearFutureElectrical
+  - name: SystemHeat
+install:
+  - find: KerbalismNFEFRpatch
+    install_to: GameData
+resources:
+  repository: https://github.com/bimo1d/Kerbalism-NFENuclearPatch
+  bugtracker: https://github.com/bimo1d/Kerbalism-NFENuclearPatch/issues
