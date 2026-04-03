@@ -28,22 +28,19 @@ Requires:
 
 1. Download the latest release from GitHub Releases.
 2. Extract `GameData/KerbalismNFEFRpatch` into your KSP `GameData` folder.
-3. Remove old duplicate bridge patches if you used custom compatibility setups before.
+3. If you use other compatibility packs, avoid duplicate patches that modify the same reactor bridge behavior.
 
 ## Mod Compatibility And Support
 
 This patch currently targets NFE fission reactor parts (`nfe-reactor-*`) with Kerbalism ProfileDefault.
 
+Compatibility with third-party compatibility packs (for example `KerbalismCompatibilityOverhaul` and `KerbalismFTT`) is not fully validated yet.
+In theory it should work together, but results can depend on patch load order and whether those packs are outdated for your current mod set.
+
 If you find an issue, open a GitHub issue with:
 - KSP.log excerpt
 - Installed mod list
 - short reproduction steps
-
-## Versioning
-
-Public release labels follow this pattern: `0.1a`, `0.1b`, `0.1c`, ...
-
-For CKAN metadata, a numeric technical version is used internally.
 
 ## Disclaimer And License
 
